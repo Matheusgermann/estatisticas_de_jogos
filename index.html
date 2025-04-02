@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Germann">
+    <meta name="description" content="Game Stats">
+    <meta name="keywords" content="Games, Progresso, Game Stats">
+    <link rel="stylesheet" href="css.css">
+    <link rel="shortcut icon" href="img/gamestats.png">
+    <title>TCC - Game Stats - Matheus Germann</title>
+</head>
+<body>
+    <header>
+        <img src="img/gamestats.png" alt="Game Stats Logo" id="banner">
+    </header>
+
+    <section id="stats">
+        <h2>Suas Estatísticas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagens</th>
+                    <th>Gênero</th>
+                    <th>Horas Jogadas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="aventura">
+                    <td><img src="img/aventura.png" alt="Aventura"></td>
+                    <td>Aventura</td>
+                    <td>0</td>
+                </tr>
+                <tr id="esporte">
+                    <td><img src="img/esporte.png" alt="Esporte"></td>
+                    <td>Esporte</td>
+                    <td>0</td>
+                </tr>
+                <tr id="fps">
+                    <td><img src="img/fps.png" alt="FPS"></td>
+                    <td>FPS</td>
+                    <td>0</td>
+                </tr>
+                <tr id="rpg">
+                    <td><img src="img/rpg.png" alt="RPG"></td>
+                    <td>RPG</td>
+                    <td>0</td>
+                </tr>
+                <tr id="estrategia">
+                    <td><img src="img/estrategia.png" alt="Estratégia"></td>
+                    <td>Estratégia</td>
+                    <td>0</td>
+                </tr>
+                <tr id="moba">
+                    <td><img src="img/moba.png" alt="MOBA"></td>
+                    <td>Moba</td>
+                    <td>0</td>
+                </tr>
+                <tr id="battleroyale">
+                    <td><img src="img/battleroyale.png" alt="Battle Royale"></td>
+                    <td>Battle Royale</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="game-form">
+        <h2>Registre um Jogo</h2>
+        <form id="register-form">
+            <label for="game-name">Nome do Jogo:</label>
+            <input type="text" id="game-name" required>
+
+            <label for="game-genre">Gênero:</label>
+            <select id="game-genre" required>
+                <option value="aventura">Aventura</option>
+                <option value="esporte">Esporte</option>
+                <option value="fps">FPS</option>
+                <option value="rpg">RPG</option>
+                <option value="estrategia">Estratégia</option>
+                <option value="moba">Moba</option>
+                <option value="battleroyale">Battle Royale</option>
+            </select>
+
+            <label for="game-hours">Horas Jogadas:</label>
+            <input type="number" id="game-hours" min="1" required>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </section>
+
+    <section id="registered-games">
+        <h2>Jogos Registrados</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do Jogo</th>
+                    <th>Gênero</th>
+                    <th>Horas Jogadas</th>
+                </tr>
+            </thead>
+            <tbody id="games-list">
+            </tbody>
+        </table>
+    </section>
+
+    <script src="js.js"></script>
+</body>
+</html>
