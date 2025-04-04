@@ -10,7 +10,6 @@ https://matheusgermann.github.io/estatisticas_de_jogos/
 📦 **Como rodar localmente:**
 ```bash
 git clone https://github.com/MatheusGermann/estatisticas_de_jogos.git
-cd estatisticas_de_jogos
 ```
 
 📷 **Exemplo de uso:**
