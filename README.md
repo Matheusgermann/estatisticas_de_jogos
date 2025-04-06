@@ -3,7 +3,7 @@
 🔗 **Acesse o projeto online:**
 https://matheusgermann.github.io/estatisticas_de_jogos/
 
-📌 **Objetivo:** Página web interativa que permite registrar partidas entre dois times, armazenar os resultados e exibir estatísticas como número de jogos, vitórias e empates de forma dinâmica.
+📌 **Objetivo:** Página web interativa que permite registrar jogos, armazenar o genêro do jogo e exibir o número de horas jogadas de forma dinâmica.
 
 🛠️ **Tecnologias usadas:** HTML, CSS e JS
 
