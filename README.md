@@ -1,7 +1,6 @@
 # Estatísticas de Jogos
 
-🔗 **Acesse o projeto online:**
-https://www.online-python.com/Gdi4kFLaM8
+🔗 **Acesse o projeto online:** https://www.online-python.com/Gdi4kFLaM8
 
 📌 **Objetivo:** Página web interativa que permite registrar jogos, armazenar o genêro do jogo e exibir o número de horas jogadas de forma dinâmica.
 
